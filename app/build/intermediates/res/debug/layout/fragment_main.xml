@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.imc.fragment.SelectionFragment"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="40dp" 
+        android:weightSum="1"
+        >
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="Select a course"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bSelectUnit1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F65A5B"
+            android:text="@string/unit1_button"
+            android:textColor="#FFFFFF"
+            android:layout_weight="0.3"
+            android:textSize="24sp" />
+	
+        <Space 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            />
+        
+        <Button
+            android:id="@+id/bSelectUnit2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:background="#59ABE3"
+            android:text="@string/unit2_button"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+        
+        <Space 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/dhilipb/Google%20Drive/AndroidStudio/IMCQuiz/app/src/main/res/layout/fragment_main.xml -->
